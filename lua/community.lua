@@ -9,6 +9,7 @@ return {
   -- import/override with your plugins folder
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.motion.mini-move" },
+  { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
