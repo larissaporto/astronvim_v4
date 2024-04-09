@@ -12,7 +12,7 @@ return {
         "lua_ls",
         "solargraph",
         "jdtls",
-        "graphql-language-service-cli",
+        -- "graphql-language-service-cli",
         -- add more arguments for adding more language servers
       })
     end,
