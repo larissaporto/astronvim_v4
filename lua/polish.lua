@@ -54,3 +54,7 @@ vim.keymap.set("v", "<leader>f", function()
   vim.api.nvim_input "<c-r>"
   vim.api.nvim_input "0"
 end, { desc = "Telescope live grep for selection" })
+
+-- Set language for neovim to english
+-- vim.opt.lang = "en_US.UTF-8"
+vim.cmd("language en_US")
